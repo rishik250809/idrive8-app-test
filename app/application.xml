@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <container id="1" type="state" widget="LT_State_Wide_List">
+        <layoutGroup id="5" name="List">
+            <property id="3" value="1"/>
+            <component id="2" type="label" widget="LT_ScrollLabel">
+                <property id="2" value="1"/>
+                <property id="3" value="1"/>
+            </component>
+            <component id="3" type="button">
+                <property id="2" value="1"/>
+                <property id="3" value="2"/>
+            </component>
+        </layoutGroup>
+        <layoutGroup id="6" name="Titlebar">
+            <component id="4" type="title"/>
+        </layoutGroup>
+    </container>
+</application>

@@ -1,0 +1,67 @@
+{
+ "schemaVersion": "1.3.0",
+ "containers": {
+  "1": {
+   "type": "state",
+   "name": "MAIN",
+   "components": {
+    "2": {
+     "type": "label",
+     "name": "MESSAGE",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 1,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_MESSAGE",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "3": {
+     "type": "button",
+     "name": "BTN_TEST",
+     "properties": {
+      "Visible": {
+       "value": 1,
+       "type": "UInt"
+      },
+      "Focusable": {
+       "value": 2,
+       "type": "UInt"
+      }
+     },
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_BTN_TEST",
+        "type": "StringId"
+       }
+      }
+     ]
+    },
+    "4": {
+     "type": "title",
+     "name": "MAIN_TITLE",
+     "rows": [
+      {
+       "Text": {
+        "value": "SID_ID8_BENCH_DEMO_MAIN_TITLE",
+        "type": "StringId"
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}
