@@ -2,12 +2,10 @@
 
 https://github.com/user-attachments/assets/82c34307-01f1-49a4-ae82-f33c334d0bfb
 
-Contributions welcome!
-
 Just a minimal BMW MGU iDrive 8 app: open its tile and press the iDrive button to
 increment a counter on a native RHMI screen.
 
-I just built it as a test for my next projects on my testing idrive8/MGU21 unit. Feel free to use it too, just credit me if you feel generous!
+I just built it as a test for my next projects on my testing idrive8/MGU21 unit. Feel free to use it too!
 
 **YOU NEED ROOT SSH ACCESS bypassed!**
 
