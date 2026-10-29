@@ -1,25 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-// Adapted from cauliflowermossgrape/idrive7-apps (MIT); see LICENSES/idrive7-apps-MIT.txt.
-/**
- * extract_sdk.js - rebuild BMW's oap-sdk from an app on YOUR OWN head unit.
- *
- * BMW does not ship oap-sdk as a separate module: it is browserified into every
- * app's javascript/app.js. This tool takes one of those bundles and writes:
- *
- *   <out>/index.js       require('oap-sdk') - the SDK's public API (OnlineApp,
- *                        someipBuilders, RhmiApplication, ...) backed by the bundle
- *   <out>/package.json
- *   <out>/source/        every oap-sdk module as a readable file at its real path
- *                        (source/src/core/OnlineApp.js, ...) - for reading, not loading
- *
- *   node tools/extract-sdk.js <path/to/bundle.js> [out_dir=.local/oap-sdk]
- *
- * Tested ID8 source: /var/opt/public/oap/oap_12204/source/bundle.js
- * Copy its adjacent package.json too, to preserve the SDK version.
- *
- * Only the bundle's module table is built; no module code runs during extraction.
- */
+
 const fs = require('fs');
 const path = require('path');
 
