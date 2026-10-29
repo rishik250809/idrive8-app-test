@@ -1,5 +1,4 @@
 'use strict';
-// Adapted from cauliflowermossgrape/idrive7-apps (MIT); see LICENSES/idrive7-apps-MIT.txt.
 /**
  * Generate ID8 interfaces and ACL using the unit's own firmware generators.
  *
