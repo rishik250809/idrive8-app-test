@@ -1,6 +1,10 @@
 # IDrive8 App Test
 
-https://github.com/user-attachments/assets/82c34307-01f1-49a4-ae82-f33c334d0bfb
+
+
+https://github.com/user-attachments/assets/325f62a0-38f9-4eea-b486-80fc46bae27f
+
+
 
 Just a minimal BMW MGU iDrive 8 app: open its tile and press the iDrive button to
 increment a counter on a native RHMI screen.
